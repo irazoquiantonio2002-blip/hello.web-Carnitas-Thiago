@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carnitas Thiago | Carnitas, Tacos, Gorditas y Chamorros para Eventos</title>
+  <meta name="description" content="Carnitas Thiago prepara carnitas estilo Michoacan, tacos, gorditas, chamorros con cueritos y paquetes para eventos. Cotizacion gratuita por WhatsApp.">
+  <meta name="keywords" content="Carnitas Thiago, carnitas estilo Michoacan, tacos de carnitas, gorditas, chamorros con cueritos, paquetes para eventos, carnitas por kilo">
+  <meta name="author" content="Carnitas Thiago">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Carnitas Thiago | Carnitas estilo Michoacan">
+  <meta property="og:description" content="Tacos, gorditas, carnitas por kilo, chamorros con cueritos y paquetes para bodas, XV anos, bautizos y eventos sociales.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_MX">
+  <meta property="og:image" content="assets/img/logo-carnitas-thiago.png">
+  <link rel="icon" type="image/png" href="assets/img/logo-carnitas-thiago.png">
+  <link rel="apple-touch-icon" href="assets/img/logo-carnitas-thiago.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700;800;900&family=Roboto+Slab:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="loading-screen" aria-hidden="true">
+    <div class="loader-inner">
+      <div class="loader-ring"></div>
+      <img src="assets/img/logo-carnitas-thiago.png" alt="" class="loader-logo">
+    </div>
+  </div>
+
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a href="#inicio" class="brand" aria-label="Carnitas Thiago - Inicio">
+        <img src="assets/img/logo-carnitas-thiago.png" alt="Logotipo de Carnitas Thiago" class="brand-logo">
+        <span class="brand-text">
+          <span class="brand-name">Carnitas Thiago</span>
+          <span class="brand-tagline">Estilo Michoacan</span>
+        </span>
+      </a>
+
+      <nav class="main-nav" id="main-nav">
+        <ul>
+          <li><a href="#inicio" class="nav-link">Inicio</a></li>
+          <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
+          <li><a href="#servicios" class="nav-link">Menu</a></li>
+          <li><a href="#galeria" class="nav-link">Eventos</a></li>
+          <li><a href="#contacto" class="nav-link">Contacto</a></li>
+        </ul>
+        <a href="https://wa.me/525630900191?text=Hola%20Carnitas%20Thiago%2C%20quiero%20hacer%20un%20pedido" target="_blank" rel="noopener" class="btn btn-primary btn-nav">Pedir Ahora</a>
+      </nav>
+
+      <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menu de navegacion" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <canvas id="particles-canvas" aria-hidden="true"></canvas>
+      <div class="hero-glow" aria-hidden="true"></div>
+
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow reveal" data-reveal>Carnitas Thiago - Tradicion mexicana</p>
+          <h1 class="hero-title reveal" data-reveal>
+            <span class="gradient-text">Carnitas con sabor de fiesta.</span><br>
+            <span class="gradient-text">Servidas como se debe.</span>
+          </h1>
+          <p class="hero-typewriter reveal" data-reveal>
+            Pide <span class="typewriter-word" id="typewriter"></span><span class="typewriter-cursor">|</span>
+          </p>
+          <p class="hero-desc reveal" data-reveal>
+            Tacos, gorditas, chamorros con cueritos y carnitas por kilo, preparados con carne de calidad, coccion lenta y recetas tradicionales para disfrutar en casa o en tu evento.
+          </p>
+          <div class="hero-cta reveal" data-reveal>
+            <a href="https://wa.me/525630900191?text=Hola%20Carnitas%20Thiago%2C%20quiero%20hacer%20un%20pedido" target="_blank" rel="noopener" class="btn btn-primary btn-lg">
+              <svg viewBox="0 0 24 24" class="btn-icon" aria-hidden="true"><path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21h.01c5.46 0 9.9-4.45 9.9-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2m0 1.8a8.1 8.1 0 0 1 5.75 2.38 8.07 8.07 0 0 1 2.38 5.73c0 4.48-3.65 8.12-8.14 8.12a8.1 8.1 0 0 1-4.13-1.13l-.3-.17-3.12.82.83-3.04-.19-.31a8.06 8.06 0 0 1-1.24-4.31c0-4.48 3.65-8.09 8.16-8.09m-4.48 4.19c-.15 0-.4.06-.6.28-.21.23-.8.77-.8 1.89s.82 2.2.93 2.35c.11.15 1.6 2.5 3.95 3.44 1.94.79 2.35.63 2.77.6.42-.04 1.36-.55 1.55-1.09.19-.53.19-.99.13-1.09-.06-.09-.21-.15-.44-.26-.23-.12-1.36-.67-1.57-.75-.21-.08-.36-.12-.52.11-.15.23-.6.75-.73.9-.13.15-.27.17-.5.06-.23-.12-.96-.35-1.83-1.13-.68-.6-1.13-1.35-1.27-1.58-.13-.23-.01-.35.1-.47.11-.11.23-.27.35-.4.11-.14.15-.24.23-.4.08-.15.04-.3-.02-.42-.06-.11-.52-1.28-.72-1.74-.19-.46-.38-.4-.52-.4Z"/></svg>
+              Pedir por WhatsApp
+            </a>
+            <a href="#servicios" class="btn btn-outline btn-lg">Ver Menu</a>
+          </div>
+          <div class="hero-social reveal" data-reveal>
+            <span class="hero-social-label">Contacto directo</span>
+            <div class="social-links">
+              <a href="tel:+527201924300" aria-label="Llamar a Carnitas Thiago">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.2.4 2.4.6 3.7.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.6.6 3.7.1.4 0 .8-.2 1L6.6 10.8Z"/></svg>
+              </a>
+              <a href="https://wa.me/525630900191" target="_blank" rel="noopener" aria-label="WhatsApp de Carnitas Thiago">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21h.01c5.46 0 9.9-4.45 9.9-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2m0 1.8a8.1 8.1 0 0 1 5.75 2.38 8.07 8.07 0 0 1 2.38 5.73c0 4.48-3.65 8.12-8.14 8.12a8.1 8.1 0 0 1-4.13-1.13l-.3-.17-3.12.82.83-3.04-.19-.31a8.06 8.06 0 0 1-1.24-4.31c0-4.48 3.65-8.09 8.16-8.09Z"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-plate reveal" data-reveal>
+          <img src="assets/img/logo-carnitas-thiago.png" alt="Logotipo de Carnitas Thiago estilo Michoacan">
+          <div class="hero-plate-card">
+            <strong>100% tradicion</strong>
+            <span>Tacos, gorditas, por kilos y chamorros con cueritos.</span>
+          </div>
+        </div>
+      </div>
+
+      <a href="#nosotros" class="scroll-indicator" aria-label="Desplazate hacia abajo"><span></span></a>
+    </section>
+
+    <section class="about" id="nosotros">
+      <div class="container about-grid">
+        <div class="about-media reveal" data-reveal>
+          <div class="about-media-frame">
+            <img src="https://images.pexels.com/photos/5454019/pexels-photo-5454019.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Tacos mexicanos con cebolla y cilantro servidos calientes" loading="lazy">
+          </div>
+          <div class="about-media-badge">
+            <span class="badge-number">7</span>
+            <span class="badge-label">Cortes para<br>tus tacos</span>
+          </div>
+        </div>
+
+        <div class="about-content">
+          <p class="eyebrow reveal" data-reveal>Sobre Carnitas Thiago</p>
+          <h2 class="section-title reveal" data-reveal>Coccion lenta, carne de calidad y <span class="text-gold">sabor mexicano</span>.</h2>
+          <p class="section-desc reveal" data-reveal>
+            Carnitas Thiago es un establecimiento especializado en carnitas y productos carnicos preparados con esmero. Su propuesta combina recetas tradicionales, frescura y una carta pensada para quienes disfrutan comer bien sin complicarse.
+          </p>
+          <div class="about-pillars">
+            <div class="pillar reveal" data-reveal>
+              <div class="pillar-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-7.2 16.95L3 22l3.4-.95A10 10 0 1 0 12 2Zm0 2a8 8 0 0 1 7.35 11.17L15 10.82V7h-2v4.65l4.7 4.7A8 8 0 1 1 12 4Z"/></svg></div>
+              <div><h3>Receta tradicional</h3><p>Carnitas hechas con tiempo, sazon y tecnica para lograr textura jugosa y sabor profundo.</p></div>
+            </div>
+            <div class="pillar reveal" data-reveal>
+              <div class="pillar-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 1 15 8l7.5 1-5.5 5.2L18.5 22 12 18l-6.5 4 1.5-7.8L1.5 9 9 8Z"/></svg></div>
+              <div><h3>Menu completo</h3><p>Maciza, buche, cuero, trompa, chamorro, lengua y costilla, listos para armar tacos al gusto.</p></div>
+            </div>
+            <div class="pillar reveal" data-reveal>
+              <div class="pillar-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 21s-7.5-4.6-10-9.1C.4 8.5 2 5 5.6 5c2 0 3.4 1 4.4 2.5C11 6 12.4 5 14.4 5 18 5 19.6 8.5 22 11.9 19.5 16.4 12 21 12 21Z"/></svg></div>
+              <div><h3>Eventos sin enredos</h3><p>Cotizacion gratuita y paquetes para celebraciones como bodas, XV anos, bautizos y 3 anos.</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="servicios">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow reveal" data-reveal>Nuestro Menu</p>
+          <h2 class="section-title reveal" data-reveal>Antojos grandes, porciones generosas y <span class="text-gold">sabor de casa</span>.</h2>
+          <p class="section-desc reveal" data-reveal>Elige tus favoritos para comer al momento, pedir por kilo o armar una solucion completa para tu evento social.</p>
+        </div>
+
+        <div class="service-category reveal" data-reveal>
+          <div class="service-cat-media">
+            <img src="https://images.pexels.com/photos/28895975/pexels-photo-28895975.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Variedad de tacos de carne con tortilla suave y salsa" loading="lazy">
+          </div>
+          <div class="service-cat-content">
+            <span class="service-cat-tag reveal" data-reveal>01 - Tacos de Carnitas</span>
+            <h3>Arma tu taco con el corte que mas se te antoje</h3>
+            <p class="service-cat-desc">Carnitas servidas en tortilla calientita, con el sabor directo de la coccion tradicional.</p>
+            <ul class="service-list">
+              <li>Maciza</li><li>Buche</li><li>Cuero</li><li>Trompa</li><li>Chamorro</li><li>Lengua</li><li>Costilla</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="service-category service-category--reverse reveal" data-reveal>
+          <div class="service-cat-media">
+            <img src="https://images.pexels.com/photos/34380892/pexels-photo-34380892.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Gorditas mexicanas servidas en plato con bebida" loading="lazy">
+          </div>
+          <div class="service-cat-content">
+            <span class="service-cat-tag reveal" data-reveal>02 - Gorditas y Chamorros</span>
+            <h3>Platillos contundentes para comer con calma</h3>
+            <p class="service-cat-desc">Opciones llenadoras, sabrosas y preparadas para quienes llegan con hambre de verdad.</p>
+            <ul class="service-list">
+              <li>Gorditas con el guiso carnico de tu eleccion</li>
+              <li>Chamorros acompanados de cueritos</li>
+              <li>Complementos clasicos para redondear cada orden</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="service-category reveal" data-reveal>
+          <div class="service-cat-media">
+            <img src="assets/img/menu-eventos-carnitas-thiago.jpeg" alt="Menu promocional de Carnitas Thiago con paquetes para eventos sociales" loading="lazy">
+          </div>
+          <div class="service-cat-content">
+            <span class="service-cat-tag reveal" data-reveal>03 - Por Kilo y Eventos</span>
+            <h3>Paquetes para compartir sin perder el sabor</h3>
+            <p class="service-cat-desc">Soluciones para reuniones familiares y eventos sociales con cotizacion gratuita.</p>
+            <ul class="service-list">
+              <li>Carnitas por kilo para reuniones y comidas familiares</li>
+              <li>Paquetes para bodas, XV anos, bautizos y 3 anos</li>
+              <li>Aceptamos transferencias electronicas</li>
+              <li>Pago con tarjeta de credito y debito sin comision</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="services-cta reveal" data-reveal>
+          <p>Cuentanos cuantas personas comen y que corte prefieren. Te orientamos con la cantidad ideal.</p>
+          <a href="https://wa.me/525630900191?text=Hola%20Carnitas%20Thiago%2C%20quiero%20una%20cotizaci%C3%B3n%20gratuita%20para%20un%20evento" target="_blank" rel="noopener" class="btn btn-primary">Solicitar Cotizacion Gratis</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="parallax-banner" style="background-image:url('https://images.pexels.com/photos/28895975/pexels-photo-28895975.jpeg?auto=compress&cs=tinysrgb&w=1920');">
+      <div class="parallax-overlay"></div>
+      <div class="container parallax-content">
+        <p class="eyebrow reveal" data-reveal>Hechas con tradicion</p>
+        <h2 class="reveal" data-reveal>El sabor que convierte cualquier comida en celebracion.</h2>
+      </div>
+    </section>
+
+    <section class="why-us">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow reveal" data-reveal>Por que elegirnos</p>
+          <h2 class="section-title reveal" data-reveal>Una carnita bien hecha se nota desde el <span class="text-gold">primer taco</span>.</h2>
+        </div>
+        <div class="features-grid">
+          <div class="feature-card reveal" data-reveal>
+            <div class="feature-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2 3 6v6c0 5.1 3.6 9.3 9 10 5.4-.7 9-4.9 9-10V6l-9-4Zm-1 14-4-4 1.4-1.4L11 13.2l5.6-5.6L18 9l-7 7Z"/></svg></div>
+            <h3>Carne de calidad</h3>
+            <p>Seleccionamos producto carnico pensado para lograr buen sabor, jugosidad y consistencia en cada servicio.</p>
+          </div>
+          <div class="feature-card reveal" data-reveal>
+            <div class="feature-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M6 3h12v4a6 6 0 0 1-5 5.92V17h4v2H7v-2h4v-4.08A6 6 0 0 1 6 7V3Zm2 2v2a4 4 0 0 0 8 0V5H8Z"/></svg></div>
+            <h3>Coccion lenta</h3>
+            <p>El tiempo correcto ayuda a que cada corte conserve textura, humedad y ese sabor profundo de carnitas.</p>
+          </div>
+          <div class="feature-card reveal" data-reveal>
+            <div class="feature-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 4h16v2H4V4Zm1 4h14l-1.2 12H6.2L5 8Zm3.2 2 .8 8h6l.8-8H8.2Z"/></svg></div>
+            <h3>Para pedir o compartir</h3>
+            <p>Tacos, gorditas, chamorros y carnitas por kilo para resolver desde el antojo rapido hasta la comida familiar.</p>
+          </div>
+          <div class="feature-card reveal" data-reveal>
+            <div class="feature-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M19 3h-1V1h-2v2H8V1H6v2H5a2 2 0 0 0-2 2v15a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2Zm0 17H5V9h14v11Zm0-13H5V5h14v2Z"/></svg></div>
+            <h3>Cotizacion gratuita</h3>
+            <p>Planea tu evento con una propuesta clara para bodas, XV anos, bautizos, 3 anos y celebraciones sociales.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="parallax-banner" style="background-image:url('https://images.pexels.com/photos/7388096/pexels-photo-7388096.jpeg?auto=compress&cs=tinysrgb&w=1920');">
+      <div class="parallax-overlay"></div>
+      <div class="container parallax-content">
+        <p class="eyebrow reveal" data-reveal>Eventos Thiago</p>
+        <h2 class="reveal" data-reveal>Tu celebracion merece carnitas calientes, abundantes y bien servidas.</h2>
+      </div>
+    </section>
+
+    <section class="gallery" id="galeria">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow reveal" data-reveal>Eventos y Especialidades</p>
+          <h2 class="section-title reveal" data-reveal>Del antojo diario a la mesa de <span class="text-gold">tu celebracion</span>.</h2>
+          <p class="section-desc reveal" data-reveal>Una seleccion visual del tipo de platillos y servicio que mejor representan a Carnitas Thiago.</p>
+        </div>
+        <div class="gallery-grid">
+          <div class="gallery-item reveal" data-reveal><img src="https://images.pexels.com/photos/5454019/pexels-photo-5454019.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Tacos con carne, cebolla y cilantro al estilo mexicano" loading="lazy"></div>
+          <div class="gallery-item reveal" data-reveal><img src="https://images.pexels.com/photos/34380892/pexels-photo-34380892.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Gorditas mexicanas doradas servidas en plato" loading="lazy"></div>
+          <div class="gallery-item reveal" data-reveal><img src="https://images.pexels.com/photos/7388096/pexels-photo-7388096.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Tacos con cebolla y cilantro listos para servir" loading="lazy"></div>
+          <div class="gallery-item reveal" data-reveal><img src="https://images.pexels.com/photos/7613568/pexels-photo-7613568.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Orden de tacos mexicanos con carne y salsas" loading="lazy"></div>
+          <div class="gallery-item reveal" data-reveal><img src="assets/img/hero-carnitas-thiago.jpeg" alt="Referencia visual de Carnitas Thiago con tacos, gordita y carnitas" loading="lazy"></div>
+          <div class="gallery-item reveal" data-reveal><img src="assets/img/menu-eventos-carnitas-thiago.jpeg" alt="Promocional de Carnitas Thiago con cortes y paquetes para eventos" loading="lazy"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contacto">
+      <div class="container contact-grid">
+        <div class="contact-info">
+          <p class="eyebrow reveal" data-reveal>Pedidos y cotizaciones</p>
+          <h2 class="section-title reveal" data-reveal>Haz tu pedido o solicita tu <span class="text-gold">paquete para evento</span>.</h2>
+          <p class="section-desc reveal" data-reveal>Escribenos por WhatsApp para pedidos, carnitas por kilo o cotizacion gratuita de eventos. Te atendemos con gusto y te ayudamos a elegir la mejor opcion.</p>
+          <ul class="contact-list reveal" data-reveal>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21h.01c5.46 0 9.9-4.45 9.9-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2m0 1.8a8.1 8.1 0 0 1 5.75 2.38 8.07 8.07 0 0 1 2.38 5.73c0 4.48-3.65 8.12-8.14 8.12a8.1 8.1 0 0 1-4.13-1.13l-.3-.17-3.12.82.83-3.04-.19-.31a8.06 8.06 0 0 1-1.24-4.31c0-4.48 3.65-8.09 8.16-8.09Z"/></svg><a href="https://wa.me/525630900191" target="_blank" rel="noopener">56 3090 0191 (WhatsApp)</a></li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.2.4 2.4.6 3.7.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.6.6 3.7.1.4 0 .8-.2 1L6.6 10.8Z"/></svg><a href="tel:+527201924300">72 0192 4300</a></li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 4h16v2H4V4Zm1 4h14l-1.2 12H6.2L5 8Zm3.2 2 .8 8h6l.8-8H8.2Z"/></svg><span>Bodas, XV anos, bautizos, 3 anos y eventos sociales</span></li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M2 6h20v12H2V6Zm2 2v8h16V8H4Zm2 2h6v2H6v-2Zm0 3h10v2H6v-2Z"/></svg><span>Transferencia, tarjeta de credito y debito sin comision</span></li>
+          </ul>
+        </div>
+        <div class="contact-map reveal" data-reveal>
+          <img src="assets/img/menu-eventos-carnitas-thiago.jpeg" alt="Informacion de pedidos, cortes y eventos de Carnitas Thiago" loading="lazy">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#inicio" class="brand">
+          <img src="assets/img/logo-carnitas-thiago.png" alt="Logotipo de Carnitas Thiago" class="brand-logo">
+          <span class="brand-text"><span class="brand-name">Carnitas Thiago</span><span class="brand-tagline">Estilo Michoacan</span></span>
+        </a>
+        <p>Carnitas, tacos, gorditas, chamorros y paquetes para eventos sociales con cotizacion gratuita.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navegacion</h4>
+        <ul><li><a href="#inicio">Inicio</a></li><li><a href="#nosotros">Nosotros</a></li><li><a href="#servicios">Menu</a></li><li><a href="#galeria">Eventos</a></li><li><a href="#contacto">Contacto</a></li></ul>
+      </div>
+      <div class="footer-col">
+        <h4>Especialidades</h4>
+        <ul><li>Tacos de maciza, buche, cuero, trompa, chamorro, lengua y costilla</li><li>Gorditas y chamorros con cueritos</li><li>Carnitas por kilo y paquetes para eventos</li></ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contacto</h4>
+        <ul><li><a href="https://wa.me/525630900191" target="_blank" rel="noopener">56 3090 0191</a></li><li><a href="tel:+527201924300">72 0192 4300</a></li></ul>
+      </div>
+    </div>
+    <div class="footer-bottom"><div class="container"><p>&copy; <span id="year"></span> Carnitas Thiago. Todos los derechos reservados.</p></div></div>
+  </footer>
+
+  <a href="https://wa.me/525630900191?text=Hola%20Carnitas%20Thiago%2C%20quiero%20hacer%20un%20pedido" target="_blank" rel="noopener" class="whatsapp-float" aria-label="Contactar por WhatsApp">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21h.01c5.46 0 9.9-4.45 9.9-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2m0 1.8a8.1 8.1 0 0 1 5.75 2.38 8.07 8.07 0 0 1 2.38 5.73c0 4.48-3.65 8.12-8.14 8.12a8.1 8.1 0 0 1-4.13-1.13l-.3-.17-3.12.82.83-3.04-.19-.31a8.06 8.06 0 0 1-1.24-4.31c0-4.48 3.65-8.09 8.16-8.09m-4.48 4.19c-.15 0-.4.06-.6.28-.21.23-.8.77-.8 1.89s.82 2.2.93 2.35c.11.15 1.6 2.5 3.95 3.44 1.94.79 2.35.63 2.77.6.42-.04 1.36-.55 1.55-1.09.19-.53.19-.99.13-1.09-.06-.09-.21-.15-.44-.26-.23-.12-1.36-.67-1.57-.75-.21-.08-.36-.12-.52.11-.15.23-.6.75-.73.9-.13.15-.27.17-.5.06-.23-.12-.96-.35-1.83-1.13-.68-.6-1.13-1.35-1.27-1.58-.13-.23-.01-.35.1-.47.11-.11.23-.27.35-.4.11-.14.15-.24.23-.4.08-.15.04-.3-.02-.42-.06-.11-.52-1.28-.72-1.74-.19-.46-.38-.4-.52-.4Z"/></svg>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
